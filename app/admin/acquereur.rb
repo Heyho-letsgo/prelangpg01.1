@@ -1,4 +1,5 @@
 ActiveAdmin.register Acquereur do
+  permit_params :name
 
 
   # See permitted parameters documentation:
